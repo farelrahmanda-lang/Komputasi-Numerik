@@ -1,1 +1,54 @@
+Algoritma 1: Eliminasi Gauss (3 variabel)
 
+Masukan: matriks koefisien A (3×3) dan vektor konstanta b (3×1)
+Keluaran: vektor solusi x = [x, y, z]
+
+Mulai.
+Baca matriks A dan vektor b.
+Tentukan n = jumlah persamaan (n = 3).
+Bentuk matriks augmented M = [A | b] berukuran 3×4.
+Eliminasi maju. Untuk k = 1 sampai n − 1, lakukan:
+Cari baris p (dari baris k sampai n) yang memiliki |M[p][k]| terbesar.
+Jika M[p][k] = 0, tampilkan “Sistem tidak memiliki solusi tunggal”, lalu selesai.
+Jika p ≠ k, tukar baris k dengan baris p.
+Untuk setiap baris i = k + 1 sampai n:
+Hitung faktor = M[i][k] / M[k][k].
+Perbarui baris i: M[i][j] = M[i][j] − faktor × M[k][j], untuk j = k sampai n + 1.
+Matriks M sekarang berbentuk segitiga atas.
+Substitusi mundur. Untuk i = n turun sampai 1, lakukan:
+Hitung jumlah = Σ M[i][j] × x[j], untuk j = i + 1 sampai n.
+Hitung x[i] = (M[i][n + 1] − jumlah) / M[i][i].
+Tampilkan nilai x, y, dan z.
+Verifikasi. Hitung A × x, lalu bandingkan dengan b dan dengan hasil numpy.linalg.solve.
+Selesai.
+Algoritma 2: Metode Bisection
+
+Masukan: fungsi f(x) = x³ − x − 2, batas a = 1, b = 2, toleransi tol = 10⁻⁶, iterasi maksimum N = 100
+Keluaran: akar pendekatan c dan jumlah iterasi
+
+Mulai.
+Definisikan fungsi f(x) = x³ − x − 2.
+Baca a, b, tol, dan N.
+Jika f(a) × f(b) ≥ 0, tampilkan “f(a) dan f(b) harus berlawanan tanda”, lalu selesai.
+Set c_lama = a.
+Iterasi. Untuk i = 1 sampai N, lakukan:
+Hitung titik tengah c = (a + b) / 2.
+Hitung error = |c − c_lama|.
+Tampilkan baris tabel: i, a, b, c, f(c), error.
+Jika f(c) = 0 atau (b − a) / 2 < tol, hentikan iterasi dan ambil c sebagai akar.
+Jika f(a) × f(c) < 0, set b = c. Jika tidak, set a = c.
+Set c_lama = c.
+Tampilkan akar c, jumlah iterasi, dan nilai f(c).
+Gambar grafik f(x) dan tandai titik akar.
+Selesai.
+
+Gauss:      Mulai → Baca A,b → Buat [A|b] → Pivoting & eliminasi (k=1..n-1)
+            → Substitusi mundur (i=n..1) → Tampilkan x,y,z → Verifikasi → Selesai
+
+Bisection:  Mulai → Baca f,a,b,tol → f(a)·f(b)<0 ? ──Tidak──→ Pesan error → Selesai
+                                          │Ya
+                                          ↓
+                       c=(a+b)/2 → f(c)=0 atau (b-a)/2<tol ? ──Ya──→ Tampilkan akar → Selesai
+                                          │Tidak
+                                          ↓
+                       f(a)·f(c)<0 ? → Ya: b=c / Tidak: a=c → ulangi
