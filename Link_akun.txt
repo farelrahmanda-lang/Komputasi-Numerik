@@ -14,7 +14,7 @@ Mata Kuliah     : Komputasi Numerik
 -----------------------------------------------------
 Username        : farelrahmanda-lang
 Link Profil     : https://github.com/mirfanmbrk
-Link Repository : https://github.com/mirfanmbrk/Komputasi-Numerik
+Link Repository : https://github.com/farelrahmanda-lang/Komputasi-Numerik
 Nama Repository : Komputasi-Numerik
 
 
