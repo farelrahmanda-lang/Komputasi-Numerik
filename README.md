@@ -17,6 +17,8 @@ Hasil Penyelesaian
 Validasi Hasil
 Penutup
 
+**[Tonton Video Demonstrasi Komputasi Numerik](https://drive.google.com/drive/folders/1DaNE66qGuJuspil8-J6YtoQKhbX4ejn3)**
+
 1. Deskripsi Tugas
 Tugas ini terdiri dari dua bagian:
 
