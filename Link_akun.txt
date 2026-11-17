@@ -13,7 +13,7 @@ Mata Kuliah     : Komputasi Numerik
 1. AKUN GITHUB
 -----------------------------------------------------
 Username        : farelrahmanda-lang
-Link Profil     : https://github.com/mirfanmbrk
+Link Profil     : https://github.com/farelrahmanda-lang
 Link Repository : https://github.com/farelrahmanda-lang/Komputasi-Numerik
 Nama Repository : Komputasi-Numerik
 
