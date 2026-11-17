@@ -1,1 +1,33 @@
+=====================================================
+TUGAS 1 - KOMPUTASI NUMERIK
+DAFTAR LINK AKUN
+=====================================================
 
+Nama Mahasiswa  : Farel Rahmanda
+NIM             : 202511420108
+Program Studi   : Teknik Informatika
+Mata Kuliah     : Komputasi Numerik
+
+
+-----------------------------------------------------
+1. AKUN GITHUB
+-----------------------------------------------------
+Username        : farelrahmanda-lang
+Link Profil     : https://github.com/mirfanmbrk
+Link Repository : https://github.com/mirfanmbrk/Komputasi-Numerik
+Nama Repository : Komputasi-Numerik
+
+
+-----------------------------------------------------
+2. AKUN GOOGLE COLABORATORY
+-----------------------------------------------------
+Akun Google     : farelrahmanda123@gmail.com
+Link Notebook   : https://colab.research.google.com/drive/1nAsHQNGjiIdwvukn94Vlky8dL4lYzjgM
+Nama Notebook   : SPL 3 Gauss.ipynb
+
+
+-----------------------------------------------------
+3. AKUN LINKEDIN
+-----------------------------------------------------
+Nama Profil     : Farel Rahmanda
+Link Profil     : www.linkedin.com/in/farel-rahmanda-5541b544b
